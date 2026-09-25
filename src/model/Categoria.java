@@ -1,6 +1,6 @@
 package model;
 
-// Classe simples que representa uma Categoria de produto (ex: Lanches, Bebidas)
+// classe simples que representa uma Categoria de produto (ex: Lanches, Bebidas)
 public class Categoria {
 
     private int id;

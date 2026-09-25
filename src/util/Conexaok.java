@@ -4,10 +4,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-// Classe simples responsavel por abrir a conexao com o banco de dados MySQL
 public class Conexaok {
 
-    // ATENCAO: ajuste usuario e senha de acordo com o seu MySQL local
+
     private static final String URL = "jdbc:mysql://localhost:3306/db_delivery";
     private static final String USUARIO = "root";
     private static final String SENHA = "root";

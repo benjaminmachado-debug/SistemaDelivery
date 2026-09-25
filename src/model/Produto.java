@@ -1,6 +1,5 @@
 package model;
 
-// Classe simples que representa um Produto do cardapio
 public class Produto {
 
     private int id;
@@ -52,7 +51,7 @@ public class Produto {
 
     @Override
     public String toString() {
-        // usado para exibir o produto dentro do JComboBox da tela de Pedido
+       
         return id + " - " + nome + " (R$ " + preco + ")";
     }
 }

@@ -4,16 +4,16 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-// Classe simples que representa um Pedido feito por um Cliente
+
 public class Pedido {
 
     private int id;
     private Date data;
     private String formaPagamento;
-    private String status; // ABERTO, EM PREPARO, SAIU PARA ENTREGA, ENTREGUE, CANCELADO
+    private String status; 
     private double total;
     private int idCliente;
-    private List<ItemPedido> itens; // lista de itens que compoem o pedido
+    private List<ItemPedido> itens; 
 
     public Pedido() {
         this.itens = new ArrayList<>();
@@ -82,7 +82,7 @@ public class Pedido {
         calcularTotal();
     }
 
-    // Soma o subtotal de todos os itens do pedido e atualiza o total
+  
     public double calcularTotal() {
         double soma = 0.0;
         for (ItemPedido item : itens) {

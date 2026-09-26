@@ -1,13 +1,12 @@
-import view.TelaPrincipal;
 
-import javax.swing.*;
-
+import javax.swing.SwingUtilities;
+import view.TelaCadastro;
 
 public class Delivery {
     public static void main(String[] args) {
         // Executa a interface grafica na thread correta do Swing
         SwingUtilities.invokeLater(() -> {
-            TelaPrincipal tela = new TelaPrincipal();
+            TelaCadastro tela = new TelaCadastro();
             tela.setVisible(true);
         });
     }
